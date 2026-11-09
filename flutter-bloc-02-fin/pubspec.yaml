@@ -1,0 +1,32 @@
+name: blocs_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.1
+  equatable: ^2.0.7       
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1     
+  geolocator: ^14.1.2
+  get_it: ^8.0.3           # <-- Añadido para solucionar el error de get_it
+  go_router: ^18.0.2
+  random_name_generator: ^1.5.0
+  uuid: ^4.6.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  geolocator_android: ^5.2.1
+
+flutter:
+  uses-material-design: true
